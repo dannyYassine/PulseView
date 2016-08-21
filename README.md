@@ -25,7 +25,7 @@ Simply drop it in your project in XML or in code
             
 ## Installation
 
-    Coming soon to JCenter ... 
+    Coming soon to jcenter ... 
             
 
 ### Custom Properties
