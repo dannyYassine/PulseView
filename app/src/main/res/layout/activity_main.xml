@@ -77,12 +77,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Period (seconds): "/>
+                android:text="Period (milisecs): "/>
             <TextView
                 android:id="@+id/text_view_period"
-                android:layout_width="wrap_content"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="1"/>
+                android:text="0000"/>
             <SeekBar
                 android:id="@+id/seekbar_period"
                 android:layout_width="match_parent"
@@ -100,7 +100,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="End Color: "/>
+                android:text="is Random: "/>
             <Switch
                 android:id="@+id/switch_is_random"
                 android:layout_width="wrap_content"
@@ -116,12 +116,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Minimum Value (seconds): "/>
+                android:text="Minimum Value (milisecs): "/>
             <TextView
                 android:id="@+id/text_view_minimum_value"
-                android:layout_width="wrap_content"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="1"/>
+                android:text="0000"/>
             <SeekBar
                 android:id="@+id/seekbar_minimum"
                 android:layout_width="match_parent"
@@ -137,12 +137,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Maximum Value (seconds): "/>
+                android:text="Maximum Value (milisecs): "/>
             <TextView
                 android:id="@+id/text_view_maximum_value"
-                android:layout_width="wrap_content"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="1"/>
+                android:text="0000"/>
             <SeekBar
                 android:id="@+id/seekbar_maximum"
                 android:layout_width="match_parent"

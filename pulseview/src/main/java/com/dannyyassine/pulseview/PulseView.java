@@ -141,7 +141,7 @@ public class PulseView extends RelativeLayout {
         View view = LayoutInflater.from(context).inflate(R.layout.pulse_view, this, true);
 
         mImageView = (ImageView) findViewById(R.id.pulse);
-        
+
     }
 
     public void startPulse() {
