@@ -16,6 +16,10 @@ Simply drop it in your project in XML or in code:
 #### Then start the pulse animation
 
     pulseView.startPulse();
+    
+#### Whenever you want to stop the pulse animation
+
+    pulseView.stopPulse();
             
 ![](https://raw.githubusercontent.com/dannyYassine/PulseView/master/pulse-view.gif)
 
