@@ -3,7 +3,7 @@ package com.dannyyassine.pulseviewlibrary;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.dannyyassine.pulseview.views.PulseView;
+import com.dannyyassine.pulseview.PulseView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         PulseView pulseView = (PulseView) this.findViewById(R.id.pulse_view);
         pulseView.startPulse();
-        String api = "117cae5ecf46f6607311648424c1673bc7d558e7";
+
     }
 
 }

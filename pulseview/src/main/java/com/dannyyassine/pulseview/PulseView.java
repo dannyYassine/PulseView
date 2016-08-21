@@ -1,7 +1,9 @@
-package com.dannyyassine.pulseview.views;
+package com.dannyyassine.pulseview;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.os.Handler;
+import android.support.annotation.ColorRes;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,8 +12,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-
-import com.dannyyassine.pulseview.R;
 
 import java.util.Random;
 import java.util.Timer;
@@ -25,6 +25,10 @@ public class PulseView extends RelativeLayout {
     private ImageView mImageView;
     private Handler mHandler = new Handler();
     private Timer mTimer = new Timer();
+
+    private long animationDuration;
+    private ColorRes startColor;
+    private ColorRes endColor;
 
     public PulseView(Context context) {
         super(context);
@@ -43,14 +47,14 @@ public class PulseView extends RelativeLayout {
 
     private void initViews(Context context, AttributeSet attrs) {
 
-//        TypedArray a = context.getTheme().obtainStyledAttributes(attrs,
-//                R.styleable.PulseView, 0, 0);
-//
-//         try {
-//
-//         } finally {
-//             a.recycle();
-//         }
+        TypedArray a = context.getTheme().obtainStyledAttributes(attrs,
+                R.styleable.PulseView, 0, 0);
+
+         try {
+
+         } finally {
+             a.recycle();
+         }
 
         View view = LayoutInflater.from(context).inflate(R.layout.pulse_view, this, true);
 

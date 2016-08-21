@@ -1,4 +1,4 @@
-package com.dannyyassine.pulseview.views;
+package com.dannyyassine.pulseview;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.widget.ImageView;
 /**
  * Created by dannyyassine on 16-08-20.
  */
-public class PulseImageView extends ImageView {
+class PulseImageView extends ImageView {
 
     private PulseAnimationEndListener mListener;
     public interface PulseAnimationEndListener {
