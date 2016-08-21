@@ -1,4 +1,4 @@
-# PulseView
+# PulseView (An Android Library)
 
 Simply drop it in your project in XML or in code
 
