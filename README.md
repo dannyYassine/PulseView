@@ -1,27 +1,28 @@
 # PulseView
 
-Simply drop it in your project in XML or in code:
+Simply drop it in your project in XML or in code
 
-#### XML
+![](https://raw.githubusercontent.com/dannyYassine/PulseView/master/pulse-view.gif)
+
+### XML
 
     <com.dannyyassine.pulseview.PulseView
             android:id="@+id/pulse_view"
             android:layout_width="100dp"
             android:layout_height="100dp"/>
             
-#### Code
+### Code
 
     PulseView pulseView = PulseView(this.getContext());
     
-#### Then start the pulse animation
+### Then start the pulse animation
 
     pulseView.startPulse();
     
-#### Whenever you want to stop the pulse animation
+### Whenever you want to stop the pulse animation
 
     pulseView.stopPulse();
             
-![](https://raw.githubusercontent.com/dannyYassine/PulseView/master/pulse-view.gif)
 
 ### Custom Properties
 
