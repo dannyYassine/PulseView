@@ -6,6 +6,7 @@
         android:fromAlpha="1.0"
         android:toAlpha="0.0"
         android:duration="1500"
+        android:fillAfter="true"
         />
 
     <scale
@@ -16,6 +17,7 @@
         android:duration="1500"
         android:pivotX="50%"
         android:pivotY="50%"
+        android:fillAfter="true"
         android:interpolator="@android:anim/accelerate_decelerate_interpolator"
         />
 

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pulse_start_color">#00ffffff</color>
+    <color name="pulse_end_color">#000</color>
+</resources>

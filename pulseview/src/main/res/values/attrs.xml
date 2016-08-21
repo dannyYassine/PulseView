@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="PulseView">
-
+        <attr name="pulse_start_color" format="color"/>
+        <attr name="pulse_end_color" format="color"/>
+        <attr name="pulse_period" format="integer"/>
+        <attr name="pulse_is_random" format="boolean"/>
+        <attr name="pulse_low_random" format="integer"/>
+        <attr name="pulse_high_random" format="integer"/>
     </declare-styleable>
 </resources>
