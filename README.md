@@ -23,6 +23,10 @@ Simply drop it in your project in XML or in code
 
     pulseView.stopPulse();
             
+## Installation
+
+    Coming soon to JCenter ... 
+            
 
 ### Custom Properties
 
