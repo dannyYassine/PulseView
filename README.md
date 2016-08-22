@@ -25,7 +25,7 @@ Simply drop it in your project in XML or in code
             
 ## Installation
 
-    Coming soon to jcenter ... 
+    compile 'com.dannyyassine.pulseviewlibrary:pulse-view:1.1'
             
 
 ### Custom Properties
