@@ -13,7 +13,7 @@ Simply drop it in your project in XML or in code
             
 ### Code
 
-    PulseView pulseView = PulseView(this.getContext());
+    PulseView pulseView = new PulseView(this.getContext());
     
 ### Then start the pulse animation
 
