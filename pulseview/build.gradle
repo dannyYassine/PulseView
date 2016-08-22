@@ -14,11 +14,11 @@ ext {
     siteUrl = 'https://github.com/dannyYassine/PulseView'
     gitUrl = 'https://github.com/dannyYassine/PulseView.git'
 
-    libraryVersion = '1.0'
+    libraryVersion = '1.1'
 
     PUBLISH_GROUP_ID = 'com.dannyyassine.pulseviewlibrary'
     PUBLISH_ARTIFACT_ID = 'pulse-view'
-    PUBLISH_VERSION = '1.0'
+    PUBLISH_VERSION = '1.1'
 
 }
 
@@ -30,7 +30,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 24
         versionCode 1
-        versionName "1.0"
+        versionName "1.1"
     }
     buildTypes {
         release {

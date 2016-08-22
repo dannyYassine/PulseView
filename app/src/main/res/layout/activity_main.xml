@@ -29,6 +29,7 @@
             custom:pulse_period="1000"
             custom:pulse_start_color="#00ffffff"
             custom:pulse_end_color="@color/colorAccent"/>
+
     </RelativeLayout>
 
     <LinearLayout
