@@ -33,8 +33,6 @@ class PulseImageView extends ImageView {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 
-
-
     public void setPulseAnimationEndListener(PulseAnimationEndListener listener) {
         mListener = listener;
     }
